@@ -5,6 +5,7 @@ import calc_mat
 if __name__ == '__main__':
     elec_mat = get_electrodes_from_file(file_path=r'C:\Users\Yaela Sharon\Documents\LAB\Electrode Mapper\data\test2_Coordinates.xlsx')
     print("------------------")
+    print("Before:")
     print_mat(elec_mat,6)
     print("----------------------")
     elec_mat_res = calc_mat.calc_mat(elec_mat, 6)
