@@ -8,6 +8,7 @@ if __name__ == '__main__':
     print("Before:")
     print_mat(elec_mat,6)
     print("----------------------")
+    print("After:")
     elec_mat_res = calc_mat.calc_mat(elec_mat, 6)
     print_mat(elec_mat_res)
     print("----------------------")
